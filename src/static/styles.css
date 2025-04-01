@@ -149,10 +149,13 @@ footer {
   border-top: 1px solid #ddd;
   background-color: #f1f8e9;
   border-radius: 5px;
+  font-size: 14px;
 }
 
+
+
 .participants-section ul {
-  margin: 10px 0 0;
+  margin: 5px;
   padding-left: 20px;
   list-style-type: disc;
 }
@@ -160,5 +163,5 @@ footer {
 .participants-section li {
   margin-bottom: 5px;
   color: #2e7d32;
-  font-size: 14px;
+  font-weight: 500;
 }
