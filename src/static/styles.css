@@ -147,21 +147,26 @@ footer {
   margin-top: 10px;
   padding: 10px;
   border-top: 1px solid #ddd;
-  background-color: #f1f8e9;
   border-radius: 5px;
   font-size: 14px;
+  background-color: #f1f8e9; /* Light green background */
 }
 
-
+.participants-section strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #2e7d32; /* Green text for "Participants:" */
+  font-weight: bold;
+}
 
 .participants-section ul {
-  margin: 5px;
-  padding-left: 20px;
+  margin: 5px 0 0 20px;
+  padding: 0;
   list-style-type: disc;
 }
 
 .participants-section li {
   margin-bottom: 5px;
-  color: #2e7d32;
+  color: #388e3c; /* Green text for participant emails */
   font-weight: 500;
 }
